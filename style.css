@@ -1,0 +1,117 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	
+ min-height: 900px;
+	
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link{
+	color:white;
+
+}
+/*hover for links*/
+.nav-item{
+  
+  color: white;
+ 
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu{
+  font-size: 12px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-menu a {
+  color:#1599cf;
+
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+	background-color:00ccffff;
+  color:00ccffff;
+  font-size: 10px;
+
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+
+
+
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#1599cf;
+}
+
+.bg-dark:hover{
+    background-color: rgba(0,0,0,0.2) !important;
+  }
+.container .display-5{
+  text-align: center;
+  font-size:1.6em;
+  margin-bottom: 50px;
+  margin-top:10px;
+  padding-bottom: 10px;
+  border-bottom:2px solid #1599cf;
+
+}
+.container p {
+  font-size:1em;
+  text-align: center;
+ 
+}
+.fas{
+ padding-left: 180px;
+ font-size: 3rem;
+ padding-bottom: 10px;
+ color: #ffad33;
+}
+ .container h3{
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.container p{
+  font-size: 1rem;
+} 
+
+.container .icons{
+  margin:40px;
+}
+footer{
+  background-color:#343a40;
+  padding-top: 20px;
+  color: white;
+  font-size:1rem;
+
+}
+footer .fas{
+ color:white;
+ font-size:25px;
+
+
+margin-left: 80px;
+
+}
+footer div{
+
+}
